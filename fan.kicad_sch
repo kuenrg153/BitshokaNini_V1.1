@@ -2382,8 +2382,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06eb653b-c15c-416b-be86-59e88d0695a0")
-		(property "Reference" "TP38"
-			(at 162.56 109.22 90)
+		(property "Reference" "FANPWM"
+			(at 160.02 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2433,7 +2433,7 @@
 		(instances
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "TP38")
+					(reference "FANPWM")
 					(unit 1)
 				)
 			)
@@ -3470,8 +3470,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbe78ea1-de61-4cfe-8d9a-6a7db6a2845a")
-		(property "Reference" "TP37"
-			(at 129.54 111.76 90)
+		(property "Reference" "FANTACH"
+			(at 127 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3521,7 +3521,7 @@
 		(instances
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e8832ea-6bf1-49d2-b3a5-32a207f555d2"
-					(reference "TP37")
+					(reference "FANTACH")
 					(unit 1)
 				)
 			)

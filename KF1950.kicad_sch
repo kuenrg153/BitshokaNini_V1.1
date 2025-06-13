@@ -2898,6 +2898,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 104.14) (xy 172.72 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f644e36-ac88-40db-9290-b1726fc193dc")
+	)
+	(wire
+		(pts
 			(xy 38.1 31.75) (xy 39.37 31.75)
 		)
 		(stroke
@@ -4286,16 +4296,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 172.72 104.14 270)
+		(at 173.99 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "041d2f2a-0f57-46f0-bb06-b6a697f730e2")
-		(property "Reference" "TP20"
-			(at 177.8 102.8699 90)
+		(property "Reference" "TXD"
+			(at 177.8 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,16 +4313,17 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 177.8 105.4099 90)
+			(at 179.07 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 172.72 109.22 0)
+			(at 173.99 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,7 +4332,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 109.22 0)
+			(at 173.99 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +4341,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 172.72 104.14 0)
+			(at 173.99 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,7 +4355,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "TP20")
+					(reference "TXD")
 					(unit 1)
 				)
 			)
@@ -4752,7 +4762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1be21737-a04b-4eaf-9766-1373afe302b5")
-		(property "Reference" "TP14"
+		(property "Reference" "RST"
 			(at 62.23 116.84 90)
 			(effects
 				(font
@@ -4803,7 +4813,7 @@
 		(instances
 			(project "BitshokaNiniV1.1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "TP14")
+					(reference "RST")
 					(unit 1)
 				)
 			)
@@ -5125,7 +5135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "314bb1f4-069f-4455-a981-2b644d6e5e66")
-		(property "Reference" "TP13"
+		(property "Reference" "RXD"
 			(at 62.23 109.22 90)
 			(effects
 				(font
@@ -5176,7 +5186,7 @@
 		(instances
 			(project "BitshokaNiniV1.1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "TP13")
+					(reference "RXD")
 					(unit 1)
 				)
 			)
@@ -5411,10 +5421,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4f7a1f1b-7e67-43e1-9dbf-2d320971cd4e")
-		(property "Reference" "TP24"
-			(at 177.8 115.5699 90)
+		(property "Reference" "0.9V"
+			(at 177.8 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,6 +5438,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -5464,7 +5474,7 @@
 		(instances
 			(project "BitshokaNiniV1.1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "TP24")
+					(reference "0.9V")
 					(unit 1)
 				)
 			)
@@ -5717,10 +5727,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6a06ae40-96de-4cf4-9d19-e07dcba251db")
-		(property "Reference" "TP21"
-			(at 177.8 107.9499 90)
+		(property "Reference" "CTSI"
+			(at 177.8 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,6 +5744,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -5770,7 +5780,7 @@
 		(instances
 			(project "BitshokaNiniV1.1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "TP21")
+					(reference "CTSI")
 					(unit 1)
 				)
 			)
@@ -6424,10 +6434,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "84486d3f-044a-4480-b35a-18f0913b4362")
-		(property "Reference" "TP26"
-			(at 177.8 123.1899 90)
+		(property "Reference" "DIR_LO"
+			(at 177.8 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,6 +6451,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -6477,7 +6487,7 @@
 		(instances
 			(project "BitshokaNiniV1.1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "TP26")
+					(reference "DIR_LO")
 					(unit 1)
 				)
 			)
@@ -6643,10 +6653,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8947d453-2ca1-4ef0-a96d-945889b7a6be")
-		(property "Reference" "TP25"
-			(at 177.8 120.6499 90)
+		(property "Reference" "DIR_HI"
+			(at 177.8 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,6 +6670,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -6696,7 +6706,7 @@
 		(instances
 			(project "BitshokaNiniV1.1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "TP25")
+					(reference "DIR_HI")
 					(unit 1)
 				)
 			)
@@ -6928,10 +6938,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "92fbb09c-f0ff-457f-9880-5f1b31d841eb")
-		(property "Reference" "TP23"
-			(at 177.8 110.4899 90)
+		(property "Reference" "RXD"
+			(at 177.8 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6946,6 +6955,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -6981,7 +6991,7 @@
 		(instances
 			(project "BitshokaNiniV1.1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "TP23")
+					(reference "RXD")
 					(unit 1)
 				)
 			)
@@ -7064,8 +7074,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a69b733d-f1c6-4fd5-8e46-07972bfba631")
-		(property "Reference" "TP15"
-			(at 187.96 33.02 90)
+		(property "Reference" "RST_LO"
+			(at 186.69 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7115,7 +7125,7 @@
 		(instances
 			(project "BitshokaNiniV1.1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "TP15")
+					(reference "RST_LO")
 					(unit 1)
 				)
 			)
@@ -7267,7 +7277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3d0e479-2e0c-4cfc-ad22-d45eda8804fc")
-		(property "Reference" "TP19"
+		(property "Reference" "1V8"
 			(at 67.31 29.21 90)
 			(effects
 				(font
@@ -7318,7 +7328,7 @@
 		(instances
 			(project "BitshokaNiniV1.1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "TP19")
+					(reference "1V8")
 					(unit 1)
 				)
 			)
@@ -7570,8 +7580,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcbbd6dc-e8ae-46a8-b75f-2d94a3191b21")
-		(property "Reference" "TP17"
-			(at 187.96 40.64 90)
+		(property "Reference" "TP_LO"
+			(at 186.69 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7621,7 +7631,7 @@
 		(instances
 			(project "BitshokaNiniV1.1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "TP17")
+					(reference "TP_LO")
 					(unit 1)
 				)
 			)
@@ -8135,7 +8145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7753def-aaf6-412e-8eb8-bb04b9fc4939")
-		(property "Reference" "TP18"
+		(property "Reference" "TP_HI"
 			(at 233.68 40.64 90)
 			(effects
 				(font
@@ -8186,7 +8196,7 @@
 		(instances
 			(project "BitshokaNiniV1.1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "TP18")
+					(reference "TP_HI")
 					(unit 1)
 				)
 			)
@@ -8374,8 +8384,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef146c86-06bd-4a5a-aa38-6600551eeee3")
-		(property "Reference" "TP16"
-			(at 187.96 35.56 90)
+		(property "Reference" "TXD_LO"
+			(at 186.69 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8425,7 +8435,7 @@
 		(instances
 			(project "BitshokaNiniV1.1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "TP16")
+					(reference "TXD_LO")
 					(unit 1)
 				)
 			)
@@ -8585,7 +8595,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdefd033-0768-43cd-965d-3197ece51129")
-		(property "Reference" "TP12"
+		(property "Reference" "TXD"
 			(at 62.23 104.14 90)
 			(effects
 				(font
@@ -8636,7 +8646,7 @@
 		(instances
 			(project "BitshokaNiniV1.1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4cf9c075-d009-4c35-9949-adda70ae20c7"
-					(reference "TP12")
+					(reference "TXD")
 					(unit 1)
 				)
 			)

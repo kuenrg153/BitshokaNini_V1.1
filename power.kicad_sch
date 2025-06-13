@@ -2810,6 +2810,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 17.78) (xy 59.69 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d2d07b-65cc-4a8c-891b-75f8e5315f74")
+	)
+	(wire
+		(pts
 			(xy 234.95 43.18) (xy 234.95 57.15)
 		)
 		(stroke
@@ -3067,6 +3077,16 @@
 			(type default)
 		)
 		(uuid "55d135b0-6e43-4c24-87cc-7e0d93690507")
+	)
+	(wire
+		(pts
+			(xy 59.69 34.29) (xy 69.85 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57af8223-c0e8-4851-a631-042df67a0651")
 	)
 	(wire
 		(pts
@@ -4100,16 +4120,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 17.78) (xy 59.69 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8f8c5d5-11c5-411f-b5ae-cfaca704e4e0")
-	)
-	(wire
-		(pts
 			(xy 78.74 46.99) (xy 92.71 46.99)
 		)
 		(stroke
@@ -4277,16 +4287,6 @@
 			(type default)
 		)
 		(uuid "ef520037-11fe-4d9e-8f41-da6a659a5ec1")
-	)
-	(wire
-		(pts
-			(xy 59.69 34.29) (xy 69.85 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef71f705-8e51-46ee-940d-c8a25a5c2398")
 	)
 	(wire
 		(pts
@@ -4980,7 +4980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1df0aee1-e32d-4428-aad6-a1a7f5381940")
-		(property "Reference" "TP4"
+		(property "Reference" "GND"
 			(at 241.3 86.36 90)
 			(effects
 				(font
@@ -5031,7 +5031,7 @@
 		(instances
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-					(reference "TP4")
+					(reference "GND")
 					(unit 1)
 				)
 			)
@@ -5498,7 +5498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "406e5c37-6627-46c5-912f-01351751f48e")
-		(property "Reference" "TP3"
+		(property "Reference" "VDD"
 			(at 241.3 43.18 90)
 			(effects
 				(font
@@ -5549,7 +5549,7 @@
 		(instances
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-					(reference "TP3")
+					(reference "VDD")
 					(unit 1)
 				)
 			)
@@ -5823,7 +5823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 140.716 36.576 90)
 			(effects
 				(font
@@ -7107,7 +7107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.67 34.5948 0)
 			(effects
 				(font
