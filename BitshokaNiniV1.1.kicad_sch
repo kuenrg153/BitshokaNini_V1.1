@@ -2810,48 +2810,6 @@
 		)
 	)
 	(sheet
-		(at 175.26 124.46)
-		(size 21.59 13.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "687cec93-73e0-429b-92bc-6f19118b1ab3")
-		(property "Sheetname" "KF1950Chain"
-			(at 175.26 123.7484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "KF1950Chain.kicad_sch"
-			(at 175.26 139.0146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "BitshokaNiniV1.1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 175.26 99.06)
 		(size 21.59 13.97)
 		(exclude_from_sim no)
