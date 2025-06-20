@@ -1644,7 +1644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d5c8dc1-a7b2-4a2e-9713-7f4fc272efda")
-		(property "Reference" "TP1"
+		(property "Reference" "VIN1"
 			(at 80.01 36.83 90)
 			(effects
 				(font
@@ -1695,7 +1695,7 @@
 		(instances
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP1")
+					(reference "VIN1")
 					(unit 1)
 				)
 			)
@@ -1710,7 +1710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "418f2cde-f91e-4839-acdd-4673be10cedc")
-		(property "Reference" "TP2"
+		(property "Reference" "GND2"
 			(at 80.01 54.61 90)
 			(effects
 				(font
@@ -1761,7 +1761,7 @@
 		(instances
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP2")
+					(reference "GND2")
 					(unit 1)
 				)
 			)

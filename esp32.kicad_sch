@@ -3998,6 +3998,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 135.89) (xy 77.47 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f015865-7c97-46df-a649-70f40ab20d9b")
+	)
+	(wire
+		(pts
 			(xy 35.56 80.01) (xy 77.47 80.01)
 		)
 		(stroke
@@ -4558,16 +4568,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 135.89) (xy 77.47 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e89be386-e7bf-428b-8a5d-41dc64835eb2")
-	)
-	(wire
-		(pts
 			(xy 184.912 37.465) (xy 191.77 37.465)
 		)
 		(stroke
@@ -4807,7 +4807,7 @@
 		(uuid "567a3a32-f5f4-4b89-aa71-aabda14e04da")
 	)
 	(label "3V3"
-		(at 69.85 135.89 0)
+		(at 73.66 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5485,8 +5485,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "40k"
-			(at 60.96 104.14 0)
+		(property "Value" "40.2k"
+			(at 58.42 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,7 +6252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a18f719-7df5-4ac0-8923-6bedc873fdf6")
-		(property "Reference" "TP6"
+		(property "Reference" "P_TX1"
 			(at 45.72 168.91 90)
 			(effects
 				(font
@@ -6303,7 +6303,7 @@
 		(instances
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-					(reference "TP6")
+					(reference "P_TX1")
 					(unit 1)
 				)
 			)
@@ -6319,7 +6319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cb98e81-3cc8-4670-b3ca-0aa42588171e")
-		(property "Reference" "TP9"
+		(property "Reference" "IO0"
 			(at 86.36 171.45 90)
 			(effects
 				(font
@@ -6370,7 +6370,7 @@
 		(instances
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-					(reference "TP9")
+					(reference "IO0")
 					(unit 1)
 				)
 			)
@@ -6561,8 +6561,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa7efa81-a466-4d39-ac8b-f34a4405c916")
-		(property "Reference" "TP11"
-			(at 86.36 166.37 90)
+		(property "Reference" "PROG_3V3"
+			(at 88.9 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,7 +6612,7 @@
 		(instances
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-					(reference "TP11")
+					(reference "PROG_3V3")
 					(unit 1)
 				)
 			)
@@ -6884,7 +6884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1fc5a42-1eb2-448a-b17e-a86aadbfb95c")
-		(property "Reference" "TP10"
+		(property "Reference" "GND3"
 			(at 86.36 168.91 90)
 			(effects
 				(font
@@ -6935,7 +6935,7 @@
 		(instances
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-					(reference "TP10")
+					(reference "GND3")
 					(unit 1)
 				)
 			)
@@ -7038,7 +7038,7 @@
 		(dnp no)
 		(uuid "e1cffb5e-5292-4edd-9beb-6b15108d80ae")
 		(property "Reference" "R80"
-			(at 69.85 102.87 0)
+			(at 68.58 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7046,7 +7046,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.64k"
 			(at 67.31 107.95 0)
 			(effects
 				(font
@@ -7238,7 +7238,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 69.85 135.89 90)
+		(at 73.66 135.89 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7246,8 +7246,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e87a2da7-959f-48df-b451-d339b8c7ac53")
-		(property "Reference" "TP8"
-			(at 63.5 135.89 90)
+		(property "Reference" "ESP_3V3"
+			(at 64.77 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,7 +7255,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 64.135 137.1599 90)
+			(at 67.945 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,7 +7265,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 69.85 140.97 0)
+			(at 73.66 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +7274,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 140.97 0)
+			(at 73.66 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7283,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 69.85 135.89 0)
+			(at 73.66 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7297,7 +7297,7 @@
 		(instances
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-					(reference "TP8")
+					(reference "ESP_3V3")
 					(unit 1)
 				)
 			)
@@ -7313,7 +7313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e895d0c0-d000-4642-9ffa-fc59a9997882")
-		(property "Reference" "TP5"
+		(property "Reference" "EN1"
 			(at 45.72 166.37 90)
 			(effects
 				(font
@@ -7364,7 +7364,7 @@
 		(instances
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-					(reference "TP5")
+					(reference "EN1")
 					(unit 1)
 				)
 			)
@@ -7388,7 +7388,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.64k"
 			(at 199.39 97.79 0)
 			(effects
 				(font
@@ -7467,7 +7467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1210fe1-0ea6-4a4c-afd4-74b6cead2c8b")
-		(property "Reference" "TP7"
+		(property "Reference" "P_RX1"
 			(at 45.72 171.45 90)
 			(effects
 				(font
@@ -7518,7 +7518,7 @@
 		(instances
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca857324-2ec8-447e-bd58-90d0c2e6b6d7"
-					(reference "TP7")
+					(reference "P_RX1")
 					(unit 1)
 				)
 			)
@@ -7832,7 +7832,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.64k"
 			(at 209.55 97.79 0)
 			(effects
 				(font
