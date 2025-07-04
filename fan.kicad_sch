@@ -1518,7 +1518,7 @@
 	)
 	(text "This sets default fan speed to 100% ->\n5.6k is datasheet recommendation but would be nice to use 4.64k"
 		(exclude_from_sim no)
-		(at 101.6 102.87 0)
+		(at 101.6 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -1892,12 +1892,12 @@
 	)
 	(text "Input \n4.5-5.5V"
 		(exclude_from_sim no)
-		(at 25.908 28.448 0)
+		(at 35.56 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3c5ba553-f1be-4f29-9c6d-dc2c2417acbd")
 	)
@@ -1944,6 +1944,16 @@
 		)
 		(uuid "7ff42f89-9336-4e98-8e2e-844b7aa3b1b9")
 	)
+	(text "For now NOT adding TVS\n(Bitaxe Gamma Issue #11)"
+		(exclude_from_sim no)
+		(at 26.67 30.48 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "897dfe90-369e-4e54-8aae-9ee02bc44cb5")
+	)
 	(text "I2C ADDR = 0x24"
 		(exclude_from_sim no)
 		(at 85.344 91.186 0)
@@ -1976,7 +1986,7 @@
 		)
 		(uuid "c15cb35f-5492-4857-b001-218885d39e15")
 	)
-	(text "Output \n1.8V nominal\n33A max"
+	(text "Output \n0.3V nominal\n33A max"
 		(exclude_from_sim no)
 		(at 239.522 56.388 0)
 		(effects

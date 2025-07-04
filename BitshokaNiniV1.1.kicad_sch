@@ -669,6 +669,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Going to leave Barrel Jack as\n54-00164 for now - see Issue #9"
+		(exclude_from_sim no)
+		(at 67.31 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c92d4cc8-7c37-4473-8226-2ae991ea0554")
+	)
 	(text_box "Bitshoka V1.0 is based entirely off of Bitaxe\nhttps://github.com/skot/bitaxe\nThe only difference is the Bitshoka logo on schematic and PCB\n"
 		(exclude_from_sim no)
 		(at 34.29 116.84 0)
