@@ -1901,7 +1901,7 @@
 		)
 		(uuid "3c5ba553-f1be-4f29-9c6d-dc2c2417acbd")
 	)
-	(text "https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=028A6B1EF7BF1E2F"
+	(text "https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=25B2D1D99B3C3268"
 		(exclude_from_sim no)
 		(at 154.94 20.32 0)
 		(effects
@@ -5356,7 +5356,7 @@
 				)
 			)
 		)
-		(property "Value" "75nH"
+		(property "Value" "72nH"
 			(at 160.02 40.64 90)
 			(effects
 				(font
@@ -5364,7 +5364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:SLC1049"
+		(property "Footprint" "bitaxe:FP0805R1"
 			(at 160.02 39.37 0)
 			(effects
 				(font
@@ -5373,7 +5373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.coilcraft.com/getmedia/ef564b79-aee7-4fb3-aabd-a8bf1c568496/slc1049.pdf"
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-fp0805-power-inductor-data-sheet.pdf"
 			(at 160.02 39.37 0)
 			(effects
 				(font
@@ -5391,7 +5391,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "SLC1049-750MLB"
+		(property "PARTNO" "FP0805R1-R07-R"
 			(at 160.02 39.37 90)
 			(effects
 				(font
