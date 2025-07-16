@@ -7684,7 +7684,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "SX3M25.000E20F30THN"
+		(property "PARTNO" "SX3M24.000E20F30THN"
 			(at 41.91 171.45 0)
 			(effects
 				(font
@@ -7693,7 +7693,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5137262"
+		(property "LCSC" ""
 			(at 41.91 171.45 0)
 			(effects
 				(font
